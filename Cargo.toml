@@ -17,8 +17,8 @@ keywords = [
     "cryptocurrency"
 ]
 
-homepage = "https://github.com/KZen-networks/multi-party-ecdsa"
-repository = "https://github.com/KZen-networks/multi-party-ecdsa"
+homepage = "https://github.com/ansonhwa/anson-multi-party-ecdsa"
+repository = "https://github.com/ansonhwa/anson-multi-party-ecdsa"
 license = "GPL-3.0-or-later"
 categories = ["cryptography"]
 
@@ -60,7 +60,7 @@ serde_json = "1.0"
 libsecp256k1 = "0.3.2"
 
 [patch.crates-io]
-rust-gmp = { version = "0.5.0", features = ["serde_support"], git = "https://github.com/KZen-networks/rust-gmp" }
+rust-gmp = { version = "0.5.0", features = ["serde_support"], git = "https://github.com/ansonhwa/anson-rust-gmp" }
 
 [[example]]
 name = "sm_manager"
