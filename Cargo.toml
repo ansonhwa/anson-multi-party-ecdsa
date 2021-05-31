@@ -40,7 +40,7 @@ git = "https://github.com/ansonhwa/curv"
 tag = "v1.0"
 
 [dependencies.centipede]
-git = "https://github.com/KZen-networks/centipede"
+git = "https://github.com/ansonhwa/anson-centipede"
 tag = "v0.2.2"
 
 [dependencies.class_group]
